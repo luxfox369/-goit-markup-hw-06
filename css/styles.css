@@ -785,7 +785,9 @@ a {
   padding: 63px 24px;
 }
 
-/* стилі footer*/
+/* секція footer*/
+
+
 .footer-section {
   background: var(--second-bg-color--);
   padding-top: 60px;
@@ -803,8 +805,12 @@ a {
   display: inline-block;
   margin-bottom: 20px;
 }
+.footer-list {
+width:231px;
+}
 
 .footer-link {
+  
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   font-size: 14px;
@@ -848,12 +854,13 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer-right {
+.footer-center {
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-content: flex-start;
-  margin-right:93px;
+  justify-content:flex-start;
+  margin-right: 93px;
 }
 .social-link-list.footer {
   margin: 0 auto;
@@ -888,10 +895,12 @@ a {
   width: 358px;
 
   padding-left:16px;
-  padding-top: 15px;
-  padding-bottom:15px;
-
+  padding-top: 14px;
+  padding-bottom:14px;
   margin-right:12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
  
 }
 .submit-btn{
