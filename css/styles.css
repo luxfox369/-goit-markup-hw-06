@@ -477,13 +477,15 @@ a {
 .form-label.checkbox {
   display:flex;
   align-items:center;
-  margin:20px 51px 30px 51px ;
+  gap:8px;
+  margin:20px 53px 30px 52px ;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em; 
   color:var(--text-color--);
   position:relative;
 }
+
 .input-checkbox {
   appearance: none;
   position:absolute;
@@ -493,10 +495,10 @@ a {
   display:inline-block;
   border:2px solid #2a2a2a;
   border-radius:4px;
-  margin-right:8.38px;
   transition: var(--bgcolor) var(--duration--) var(--cubic--),
               var(--bordercolor) var(--duration--)var(--cubic--);
 }
+
 .input-checkbox:checked +.icon-check{
 background-color: var(--accent-color--);
 border-color:var(--accent-color--);
