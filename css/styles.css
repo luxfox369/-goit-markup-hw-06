@@ -976,7 +976,8 @@ border-color:var(--accent-color--);
 /* Форми підписки */
 .footer-form {
   width: 570px;
-  position: relative;
+  display:flex;
+  align-items:center;
 }
 .span-label {
   display: block;
@@ -1008,7 +1009,7 @@ border-color:var(--accent-color--);
   display: flex;
   align-items: center;
   text-align: center;
-   font-weight: 700;
+  font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.06em;
@@ -1020,12 +1021,13 @@ border-color:var(--accent-color--);
   transition:var(--bgcolor) var(--duration) var(--cubic--);
 }
 .submit-btn.footer{
- position:absolute;
-  right: 0;
-  bottom: 0;
+ align-self :flex-end;
   gap: 10px;
 }
-
+.submit-icon{
+  
+ 
+}
 
 .submit-btn:focus,
 .submit-btn:hover {
